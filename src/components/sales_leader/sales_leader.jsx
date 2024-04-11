@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
 import styles from './sales_leader.module.css';
+import { MdOutlineShoppingCart } from "react-icons/md";
 
 const Sales_leader = () => {
     const [podsInfo, setPodsInfo] = useState([]);
@@ -44,7 +45,14 @@ const Sales_leader = () => {
                         <p className={styles.monserat} style={{ color: '#903718', fontSize: '11px', marginLeft: '25px' }}>Немає в наявності</p>
                         <p className={styles.monserat} style={{ color: '#595959', fontSize: '12px', marginLeft: '15px', marginBottom: '5.5px' }}>14565</p>
                         <p className={styles.monserat} style={{ color: '#333333', fontSize: '14px', marginLeft: '15px' }}>{item.product_description}</p>
-                        <p className={`${styles.monserat} ${styles.priceText} ${styles.pricePosition}`}>{item.price}</p>
+                        <div className={styles.imageAndTextContainer}>
+                            <p className={`${styles.monserat} ${styles.priceText} ${styles.pricePosition}`}>{item.price}</p>
+
+                            <button className={styles.searchButton} style={{ width: '32px', height: '32px' }}>
+                            <MdOutlineShoppingCart />
+                            </button>
+
+                        </div>
 
                     </div>
                 ))}

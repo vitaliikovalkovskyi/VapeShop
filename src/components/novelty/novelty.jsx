@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
 import styles from './novelty.module.css';
-
+import { MdOutlineShoppingCart } from "react-icons/md";
 const Novelty = () => {
     const [podsInfo, setPodsInfo] = useState([]);
 
@@ -49,8 +49,7 @@ const Novelty = () => {
                             <p className={`${styles.monserat} ${styles.priceText} ${styles.pricePosition}`}>{item.price}</p>
 
                             <button className={styles.searchButton} style={{ width: '32px', height: '32px' }}>
-                                {/* <LuSearch style={{ color: 'white', width: '16px' }} /> */}
-
+                            <MdOutlineShoppingCart />
                             </button>
 
                         </div>

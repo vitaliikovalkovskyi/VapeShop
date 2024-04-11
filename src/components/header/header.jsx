@@ -12,7 +12,6 @@ import { LuSearch } from "react-icons/lu";
 import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 
-
 const Header = () => {
   return (
     <>
@@ -100,7 +99,7 @@ const Header = () => {
         </div>
         <div className={styles.underHeaderText} style={{backgroundColor:'white'}}>
           <div style={{ fontWeight: '400', fontSize: '12px' }}>
-          Я шукаю, наприклад, 
+          Я шукаю, наприклад,
           </div>
           <div style={{fontWeight:'500', fontSize: '12px'}}>
           одноразка

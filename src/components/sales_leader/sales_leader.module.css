@@ -81,11 +81,15 @@ background-color: white;
 border-radius: 8px;
 border: 1px solid #E9ECEF;
 cursor: pointer;
-position: relative; /* Added relative positioning */
+/* position: relative; */
+display: flex;
+flex-direction: column;
+justify-content: space-between;
 }
 
 .pricePosition {
-position: absolute; /* Keeps absolute positioning */
+padding-bottom: 15px;
+/* position: absolute; Keeps absolute positioning */
 bottom: 0; /* Sticks to the bottom of the parent container */
 left: 15px; /* Ensures left padding inside the container */
 color: #000000; /* Keep color styling */
@@ -93,6 +97,35 @@ color: #000000; /* Keep color styling */
 }
 
 .priceText {
-font-size: 16px; /* Moved font size here */
-font-weight: 600; /* Moved font weight here */
+font-size: 16px;
+font-weight: 600;
+color: #000000;
+margin-bottom: 5px;
+}
+
+.searchButton{
+cursor: pointer;
+background: linear-gradient(90deg, rgba(115, 170, 248, 1) 1%, rgba(134, 114, 210, 1) 90%);
+border: none;
+border-radius: 8px;
+color: white;
+font-family: 'Montserrat', sans-serif;
+
+display: flex; /* включає Flexbox */
+justify-content: space-around; /* розміщує елементи з рівними відступами всередині */
+align-items: center; /* центрує елементи вертикально */
+
+/* margin-right: 24px; */
+margin-top: 0px;
+margin-left: 7px;
+/* padding-bottom: 15px; */
+}
+
+.imageAndTextContainer {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0 15px;
+padding-bottom: 15px;
 }
