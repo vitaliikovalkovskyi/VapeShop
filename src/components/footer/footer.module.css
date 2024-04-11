@@ -1,0 +1,56 @@
+.container {
+    display: flex;          /* Використовує Flexbox для розміщення вмісту */
+    flex-direction: row; /* Робить головною оссю вертикальну, щоб вміст вирівнювався як стовпець */
+    border: 0px solid white;
+    margin-left: 220px;
+    margin-right: 208px;
+    margin-top: 70px;
+}
+.firstbock{
+    width: 367.5px;
+}
+
+.logo{
+    margin-top: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+
+}
+
+.photo{
+    
+    width: 48px;
+    display: flex;
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+.secondblock{
+    margin-left: 10px;
+    margin-top: 40px;
+    font-family: 'Montserrat', sans-serif;
+    width: 363px;
+}
+/* Button.module.css */
+.button {
+    
+    margin-left: -5px;
+    color: #4B4B4B;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    margin-top: 22px;
+    margin-bottom: -15px;
+}
+
+.button:hover {
+    text-decoration: underline;
+}
+

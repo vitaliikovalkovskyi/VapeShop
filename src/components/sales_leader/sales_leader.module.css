@@ -1,0 +1,98 @@
+.conteiner{
+    
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    /* justify-content: center; */
+    margin-left: 225px;
+    /* margin-right: 225px; */
+    width: 1470px;
+    margin-top: 0px;
+    padding: 10px;
+    border: 0px solid white;
+    border-radius: 5px;
+    border-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.novelty {
+display: flex;
+flex-direction: row;
+justify-content: space-between; /* This will take care of spacing between elements */
+align-items: center;
+margin-left: auto; /* Changes here for auto margin */
+margin-right: auto; /* And here */
+width: 1470px;
+margin-top: 0;
+/* padding: 10px; */
+border: 0px solid #ccc;
+border-radius: 5px;
+border-color: gray;
+}
+
+.textFont{
+font-family: 'Montserrat', sans-serif;
+font-size: 18px;
+margin-top: 15px;
+margin-right: 1031px;
+margin-bottom: 10px;
+margin-left: 10px;
+}
+.monserat{
+font-family: 'Montserrat', sans-serif;
+}
+
+
+.buttonsConteiner {
+display: flex; /* Enables Flexbox */
+justify-content: space-around; /* Spaces the buttons evenly */
+align-items: center; /* Vertically centers the buttons */
+position: relative;
+}
+.buttons {
+background: #F8F9FA;
+border: none;
+border-radius: 5px;
+color: white;
+font-family: 'Montserrat', sans-serif;
+width: 28px;
+height: 28px;
+
+/* Adjust margins as needed */
+margin-top: 0px;
+display: flex; /* Use flexbox to align the icon */
+justify-content: center; /* Center horizontally */
+align-items: center;
+transition: background-color 0.3s ease;
+}
+
+.buttons:hover {
+background: #dde1e4;
+cursor: pointer;
+}
+
+.buttonsForPod {
+width: 274px;
+height: 564px;
+margin: 10px;
+background-color: white;
+border-radius: 8px;
+border: 1px solid #E9ECEF;
+cursor: pointer;
+position: relative; /* Added relative positioning */
+}
+
+.pricePosition {
+position: absolute; /* Keeps absolute positioning */
+bottom: 0; /* Sticks to the bottom of the parent container */
+left: 15px; /* Ensures left padding inside the container */
+color: #000000; /* Keep color styling */
+/* Removed font-size and font-weight */
+}
+
+.priceText {
+font-size: 16px; /* Moved font size here */
+font-weight: 600; /* Moved font weight here */
+}

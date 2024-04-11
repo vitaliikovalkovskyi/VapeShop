@@ -1,0 +1,158 @@
+{
+    "pods_info": [
+        {
+            "id": 1,
+            "product_name": "Набір Flavorlab Love it Strong 30 мл 50 мг - Blueberry Cherry",
+            "product_description": "Зануртеся у світ смаків з набором Flavorlab Love it Strong 30 мл. Цей набір пропонує широку лінійку ..",
+            "product_image": "https://vapehub.org.ua/image/cache/catalog/premix/love%20it%20strong/love-it-strong-30-vape-hub-blueberry-cherry-200x200.jpg",
+            "price": "299 грн"
+        },
+        {
+            "id": 2,
+            "product_name": "Набір Flavorlab Love it Strong 30 мл 50 мг - Cherry Strawberry",
+            "product_description": "Зануртеся у світ смаків з набором Flavorlab Love it Strong 30 мл. Цей набір пропонує широку лінійку ..",
+            "product_image": "https://vapehub.org.ua/image/cache/catalog/premix/love%20it%20strong/love-it-strong-30-vape-hub-straw-cherry-200x200.jpg",
+            "price": "299 грн"
+        },
+        {
+            "id": 3,
+            "product_name": "Набір Flavorlab Love it Strong 30 мл 50 мг - Strawberry Cactus",
+            "product_description": "Зануртеся у світ смаків з набором Flavorlab Love it Strong 30 мл. Цей набір пропонує широку лінійку ..",
+            "product_image": "https://vapehub.org.ua/image/cache/catalog/premix/love%20it%20strong/love-it-strong-30-vape-hub-straw-cactus-200x200.jpg",
+            "price": "299 грн"
+        },
+        {
+            "id": 4,
+            "product_name": "Набір Flavorlab Love it Strong 30 мл 50 мг - Cinnamon Cookies",
+            "product_description": "Зануртеся у світ смаків з набором Flavorlab Love it Strong 30 мл. Цей набір пропонує широку лінійку ..",
+            "product_image": "https://vapehub.org.ua/image/cache/catalog/premix/love%20it%20strong/love-it-strong-30-vape-hub-cinnamon-cookie-200x200.jpg",
+            "price": "299 грн"
+        },
+        {
+            "id": 5,
+            "product_name": "Набір Flavorlab Love it Strong 30 мл 50 мг - Blueberry Apple",
+            "product_description": "Зануртеся у світ смаків з набором Flavorlab Love it Strong 30 мл. Цей набір пропонує широку лінійку ..",
+            "product_image": "https://vapehub.org.ua/image/cache/catalog/premix/love%20it%20strong/love-it-strong-30-vape-hub-blueberry-apple-200x200.jpg",
+            "price": "299 грн"
+        },
+        {
+            "id": 6,
+            "product_name": "Набір Flavorlab Love it Strong 30 мл 50 мг - Watermelon Strawberry Cherry",
+            "product_description": "Зануртеся у світ смаків з набором Flavorlab Love it Strong 30 мл. Цей набір пропонує широку лінійку ..",
+            "product_image": "https://vapehub.org.ua/image/cache/catalog/premix/love%20it%20strong/love-it-strong-30-vape-hub-chery-straw-water-200x200.jpg",
+            "price": "299 грн"
+        },
+        {
+            "id": 7,
+            "product_name": "Набір Flavorlab Love it Strong 30 мл 50 мг - Melon Mango Papaya",
+            "product_description": "Зануртеся у світ смаків з набором Flavorlab Love it Strong 30 мл. Цей набір пропонує широку лінійку ..",
+            "product_image": "https://vapehub.org.ua/image/cache/catalog/premix/love%20it%20strong/love-it-strong-30-vape-hub-melon-mango-papaya-200x200.jpg",
+            "price": "299 грн"
+        },
+        {
+            "id": 8,
+            "product_name": "Набір Flavorlab Love it Strong 30 мл 50 мг - Hazelnut Caramel Banana Cream",
+            "product_description": "Зануртеся у світ смаків з набором Flavorlab Love it Strong 30 мл. Цей набір пропонує широку лінійку ..",
+            "product_image": "https://vapehub.org.ua/image/cache/catalog/premix/love%20it%20strong/love-it-strong-30-vape-hub-banan-caramel-200x200.jpg",
+            "price": "299 грн"
+        },
+        {
+            "id": 9,
+            "product_name": "Набір Flavorlab Love it Strong 30 мл",
+            "product_description": "Зануртеся у світ смаків з набором Flavorlab Love it Strong 30 мл. Цей набір пропонує широку лінійку ..",
+            "product_image": "https://vapehub.org.ua/image/cache/catalog/premix/love%20it%20strong/love-it-strong-30-vape-hub-all-200x200.jpg",
+            "price": "299 грн"
+        },
+        {
+            "id": 10,
+            "product_name": "Картридж F-Resin Breeze SE Pod 2 мл, 1.0 Ом",
+            "product_description": "Ласкаво просимо до нового етапу вашого вейпінгу з картриджем F-Resin Breeze SE Pod 2 мл..",
+            "product_image": "https://vapehub.org.ua/image/cache/catalog/cartridge/Freeton/F-Resin%20Breeze%20SE%20Pod-cart-200x200.jpg",
+            "price": "109 грн"
+        },
+        {
+            "id": 11,
+            "product_name": "POD система Vaporesso Xros 3 Kit Fresh Green",
+            "product_description": "\\r\\nXROS 3 — це нова под система в сімействі XROS, що прийшла на заміну Xros 2. За роботу Vaporesso ..",
+            "product_image": "https://vapehub.org.ua/image/cache/catalog/pods/xros3/vape-hub-vaporesso-3-xros-gresh-green-200x200.jpg",
+            "price": "999 грн"
+        },
+        {
+            "id": 12,
+            "product_name": "POD система Vaporesso Xros 3 Kit Peach Pink",
+            "product_description": "\\r\\nXROS 3 — це нова под система в сімействі XROS, що прийшла на заміну Xros 2. За роботу Vaporesso ..",
+            "product_image": "https://vapehub.org.ua/image/cache/catalog/pods/xros3/vape-hub-vaporesso-3-xros-peach-pink-200x200.jpg",
+            "price": "999 грн"
+        },
+        {
+            "id": 13,
+            "product_name": "POD система ASPIRE MINICAN Plus Pod Kit",
+            "product_description": "Под система Aspire Minican Plus виготовлений з високоякісного міцного напівпрозорого пластику, проте..",
+            "product_image": "https://vapehub.org.ua/image/cache/catalog/pods/aspire-minican-plus-200x200.jpg",
+            "price": "649 грн"
+        },
+        {
+            "id": 14,
+            "product_name": "Картридж ELF BAR RF350 Pod 1.2 ohm",
+            "product_description": "Elf Bar RF350 і MATE 500 1.6 ML (1.2ohm) - це ідеальний багаторазовий картридж, створений для..",
+            "product_image": "https://vapehub.org.ua/image/cache/catalog/import_files/69/69c6b9066eea11ec4a9b00505687efca_a82845d8748611ec5d8b00505687efca-200x200.jpg",
+            "price": "89 грн"
+        },
+        {
+            "id": 15,
+            "product_name": "Картридж Lost Vape Ursa Nano 0.8 ohm",
+            "product_description": "Картридж Lost Vape URSA NANO 0.8 ohm - багаторазовий змінний картридж ємністю 2.5 мл підходить для в..",
+            "product_image": "https://vapehub.org.ua/image/cache/catalog/import_files/46/463fc46e90ea11ed3b9800505687efca_4e48b53090ea11ed3b9800505687efca-200x200.png",
+            "price": "119 грн"
+        },
+        {
+            "id": 16,
+            "product_name": "Випаровувач AIRSCREAM AirsPops Pro 1.0ohm",
+            "product_description": "Випаровувач для AirsPops PRO EC/M 1,0 Ом рівномірно випаровує рідину та дає максимум смаку щоб ви за..",
+            "product_image": "https://vapehub.org.ua/image/cache/catalog/import_files/99/997294c66e3211ecfa9300505687efca_3100d3f4749411ec5d8b00505687efca-200x200.jpg",
+            "price": "129 грн"
+        },
+        {
+            "id": 17,
+            "product_name": "Картридж Vaporesso Xros 0.8 ohm",
+            "product_description": "Картридж Vaporesso XROS представляє високоякісний елемент для вашого вейпінг-пристр..",
+            "product_image": "https://vapehub.org.ua/image/cache/catalog/import_files/d1/d1315a708d8911ec789b00505687efca_aee8b64cbc2311ede39400505687efca-200x200.jpg",
+            "price": "116 грн"
+        },
+        {
+            "id": 18,
+            "product_name": "Картридж Vaporesso Luxe Q 0.8 ohm",
+            "product_description": "Картридж Vaporesso LUXE Q 0.8 ohm підходить для Luxe Q, Luxe QS, Luxe Q2, Luxe Q2SЕ. Ідеал..",
+            "product_image": "https://vapehub.org.ua/image/cache/catalog/import_files/a2/a2260e388d8911ec789b00505687efca_b245cfd0d48011edc29700505687efca-200x200.jpg",
+            "price": "119 грн"
+        },
+        {
+            "id": 19,
+            "product_name": "Картридж Vaporesso Xros 0.6 ohm",
+            "product_description": "Картридж Vaporesso XROS представляє високоякісний елемент для вашого вейпінг-пристрою від виз..",
+            "product_image": "https://vapehub.org.ua/image/cache/catalog/import_files/c2/c2ad2578bc2311ede39400505687efca_c669c1e4bc2311ede39400505687efca-200x200.jpg",
+            "price": "116 грн"
+        },
+        {
+            "id": 20,
+            "product_name": "Картридж ASPIRE Minican Plus, Minican 2 Pod 1.0 ohm",
+            "product_description": "Цей картридж був спеціально розроблений для Aspire Minican 1, 2, та Plus із ємністю 3 мл для рідини ..",
+            "product_image": "https://vapehub.org.ua/image/cache/catalog/import_files/76/76bae6f4758e11edd98800505687efca_7ff7c98a758e11edd98800505687efca-200x200.png",
+            "price": "119 грн"
+        },
+        {
+            "id": 21,
+            "product_name": "Картридж Lost Vape Ursa Nano 1.0 ohm",
+            "product_description": "Картридж Lost Vape URSA NANO 1.0 ohm - багаторазовий змінний картридж ємністю 2.5 мл підходить для в..",
+            "product_image": "https://vapehub.org.ua/image/cache/catalog/import_files/43/438b33ce93d911ed148100505687efca_4ca7159093d911ed148100505687efca-200x200.png",
+            "price": "119 грн"
+        },
+        {
+            "id": 22,
+            "product_name": "Картридж Suorin Ace 1.0 ohm",
+            "product_description": "Картридж багаторазово використовується для системи Suorin ACE Pod Kit. Виготовлений із пластику, яки..",
+            "product_image": "https://vapehub.org.ua/image/cache/catalog/import_files/96/96bcdd8a6e2e11ecfa9300505687efca_5e7a633c34e611ed7b8e00505687efca-200x200.jpg",
+            "price": "129 грн"
+        }
+    ]
+}

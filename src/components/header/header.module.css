@@ -1,0 +1,189 @@
+.upper_header {
+    display: flex;
+    flex: space-around;
+    /* justify-content: space-around; */
+    list-style: none;
+    padding: 0;
+    margin-left: 225px;
+    
+}
+
+.upper_header ul {
+    display: flex;
+    justify-content: space-between;
+    /* Забезпечує рівномірний розподіл елементів списку */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.upper_header li {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border: none;
+    display: flex;
+    flex-direction: center;
+}
+
+.purchase__button {
+
+    font-style: regular;
+    font-size: 13px;
+    color: 000000;
+    border: none;
+    outline: none;
+    background-color: white;
+    margin-right: 9.63px;
+    cursor: pointer;
+}
+
+.Logo {
+    margin-top: 10px;
+    margin-left: 235px;
+    display: flex; /* Застосовує flexbox до поля пошуку */
+    align-items: center;
+}
+
+.catalogButton {
+    
+    cursor: pointer;
+    background: linear-gradient(90deg, rgba(115, 170, 248, 1) 1%, rgba(134, 114, 210, 1) 90%);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    width: 150px; /* або 'auto' для автоматичної ширини */
+    height: 40px;
+    display: flex; /* включає Flexbox */
+    justify-content: space-around; /* розміщує елементи з рівними відступами всередині */
+    align-items: center; /* центрує елементи вертикально */
+    padding: 0 10px;
+    margin-left: 155px;
+    margin-top: 33.64px; /* додає невеликі відступи з країв, якщо це потрібно */
+  }
+  
+
+
+
+
+
+.hamburger{
+    margin-left: 18px;
+}
+
+.catalogText {
+    /* margin: 0 5px; */
+    font-size: 14px;
+    /* Adjust space around text */
+}
+
+.mainHeader {
+    flex-direction: row;
+    display: flex; 
+    /* flex: space-around; */
+    align-items: center;/* Встановлює flexbox для контейнера */
+    background-color: #fff;
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; */
+}  
+
+.Catalog{
+    display: flex;
+    align-items: center;
+}
+
+.catalogSearch{
+    margin-top: 25px;
+    width:400.3px;
+    height: 80px;
+    margin-left: 10px;
+    display: flex; /* Застосовує flexbox до поля пошуку */
+    align-items: center;
+}
+
+.Search{
+    width: 300.2px;
+    height: 40px;
+    margin-top: 20;
+    margin-left: 10px;
+    border: none;
+    color: #525252;          /* Колір тексту */
+    font-size: 13px;         /* Розмір шрифту */
+    font-weight: normal; 
+    border: none;
+    outline: none;
+}
+
+.searchButton{
+    cursor: pointer;
+    background: linear-gradient(90deg, rgba(115, 170, 248, 1) 1%, rgba(134, 114, 210, 1) 90%);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+
+    display: flex; /* включає Flexbox */
+    justify-content: space-around; /* розміщує елементи з рівними відступами всередині */
+    align-items: center; /* центрує елементи вертикально */
+ 
+    /* margin-right: 24px; */
+    margin-top: 0px;
+    margin-left: 7px;
+}
+
+.catalogShledule {
+    display: flex; /* Застосовує flexbox до поля пошуку */
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #595959;
+    width: 152.18px;
+    margin-top: 40px;
+    margin-left: -20px;;
+}
+
+.icoPhone {
+    display: flex;
+    flex-direction: row; /* Гарантує, що дочірні елементи вирівнюються горизонтально */
+    justify-content: center; /* Центрує елементи по горизонталі */
+    align-items: center; /* Вирівнює елементи по вертикалі */
+    margin-left: 123px;
+    margin-top: 22px;
+}
+
+.icoNumberStyle{
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #333333;
+    font-weight: 600;
+    margin-left: 5px; /* Застосування semibold */
+}
+
+.icoBasket{
+    margin-left: 35px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.superHeader {
+    font-family: 'Montserrat', sans-serif;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Значення z-index можна змінити в залежності від потреб вашого дизайну */
+    transition: top 0.3s ease; /* Додано перехід для плавного згортання/розгортання */
+}
+
+.underHeaderText{
+    display: flex;
+    flex-direction: row; /* Гарантує, що дочірні елементи вирівнюються горизонтально */
+    justify-content: center;
+    margin-bottom: 15px;
+}
