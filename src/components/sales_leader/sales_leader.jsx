@@ -1,8 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import axios from 'axios';
 import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
 import styles from './sales_leader.module.css';
 import { MdOutlineShoppingCart } from "react-icons/md";
+import PodButton from '../novelty/pod_button'; //
+import Slider from "react-slick";
 
 const Sales_leader = () => {
     const [podsInfo, setPodsInfo] = useState([]);
@@ -22,41 +24,43 @@ const Sales_leader = () => {
         fetchData();
     }, []);
 
+    const settings = {
+        dots: false,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 5,
+        slidesToScroll: 1,
+
+    };
+    const sliderRef = useRef()
+
+    const goToNext = () => sliderRef.current.slickNext()
+    const goToPrev = () => sliderRef.current.slickPrev()
     return (
-        <div>
+        <div className={styles.slider}>
             <div className={styles.novelty}>
                 <p className={styles.textFont}>
                     Лідери продажів
                 </p>
-                <div className={styles.buttonsConteiner}>
+                <div className={styles.buttonsConteiner} >
                     <button className={styles.buttons}>
-                        <IoIosArrowBack style={{ color: '#000000' }} />
+                        <IoIosArrowBack onClick={goToPrev} style={{ color: '#000000' }} />
                     </button>
                     <button className={styles.buttons}>
-                        <IoIosArrowForward style={{ color: '#000000' }} />
+                        <IoIosArrowForward onClick={goToNext} style={{ color: '#000000' }} />
                     </button>
                 </div>
             </div>
-            <div className={styles.novelty}>
-                {podsInfo.length > 0 && podsInfo.map(item => (
-                    <div key={item.id} className={styles.buttonsForPod}>
-                        <img style={{ width: '274px', height: '230px', marginBottom: '15px' }} src={item.product_image} alt={item.product_name} />
-                        <p className={styles.monserat} style={{ margin: '15px' }}>{item.product_name}</p>
-                        <p className={styles.monserat} style={{ color: '#903718', fontSize: '11px', marginLeft: '25px' }}>Немає в наявності</p>
-                        <p className={styles.monserat} style={{ color: '#595959', fontSize: '12px', marginLeft: '15px', marginBottom: '5.5px' }}>14565</p>
-                        <p className={styles.monserat} style={{ color: '#333333', fontSize: '14px', marginLeft: '15px' }}>{item.product_description}</p>
-                        <div className={styles.imageAndTextContainer}>
-                            <p className={`${styles.monserat} ${styles.priceText} ${styles.pricePosition}`}>{item.price}</p>
 
-                            <button className={styles.searchButton} style={{ width: '32px', height: '32px' }}>
-                            <MdOutlineShoppingCart />
-                            </button>
+            <div className="slider-container" >
+                <Slider ref={sliderRef} {...settings}>
+                    {podsInfo.length > 0 && podsInfo.map(item => (
 
-                        </div>
-
-                    </div>
-                ))}
+                        <PodButton key={item.id} styles={styles} item={item} />
+                    ))}
+                </Slider>
             </div>
+
 
         </div >
     );

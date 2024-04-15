@@ -129,3 +129,15 @@
     padding: 0 15px;
     padding-bottom: 15px;
 }
+
+.slider{
+    align-items: center;
+    margin-left: auto; /* Changes here for auto margin */
+    margin-right: auto; /* And here */
+    width: 1470px;
+    margin-top: 0;
+    /* padding: 10px; */
+    border: 0px solid #ccc;
+    border-radius: 5px;
+    border-color: gray;
+}
