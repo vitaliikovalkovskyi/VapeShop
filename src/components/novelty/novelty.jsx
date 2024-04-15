@@ -26,7 +26,7 @@ const Novelty = () => {
     const settings = {
         dots: false,
         infinite: true,
-        speed: 500,
+        speed: 300,
         slidesToShow: 5,
         slidesToScroll: 1,
 
@@ -42,11 +42,11 @@ const Novelty = () => {
                     Новинка
                 </p>
                 <div className={styles.buttonsConteiner} >
-                    <button className={styles.buttons}>
-                        <IoIosArrowBack onClick={goToPrev} style={{ color: '#000000' }} />
+                    <button onClick={goToPrev}  className={styles.buttons}>
+                        <IoIosArrowBack style={{ color: '#000000' }} />
                     </button>
-                    <button className={styles.buttons}>
-                        <IoIosArrowForward onClick={goToNext} style={{ color: '#000000' }} />
+                    <button  onClick={goToNext} className={styles.buttons}>
+                        <IoIosArrowForward  style={{ color: '#000000' }} />
                     </button>
                 </div>
 
