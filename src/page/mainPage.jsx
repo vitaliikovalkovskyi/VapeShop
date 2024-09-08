@@ -10,7 +10,7 @@ const MainPage = () => {
   return (
     <div>
       <Header />
-      <Category />
+      <Category /> 
       <Novelty />
       <Sales_leader />
       <VapehubDescription />
